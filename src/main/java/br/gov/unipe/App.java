@@ -1,13 +1,14 @@
 package br.gov.unipe;
 
 /**
- * Hello world!
+ * Cálculo do IMC para aula de Gerência de Configuração do Unipê
  *
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+
+public float calculaIMC(float peso, float altura) {
+    return peso/(altura*altura);
+}
+
 }
